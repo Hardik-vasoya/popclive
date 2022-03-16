@@ -1,0 +1,10 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 52" width="280" height="52">
+	<title>white-border-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: none;stroke: #fa3099 } 
+		.shp1 { fill: none;stroke: #ffffff } 
+	</style>
+	<path id="Layer" class="shp0" d="M269.45 51.5L4.5 51.5L4.5 10.21L14.05 0.5L279 0.5L279 41.79L269.45 51.5Z" />
+	<path id="Layer" class="shp1" d="M262.55 51.5L0.5 51.5L0.5 10.21L9.95 0.5L272 0.5L272 41.79L262.55 51.5Z" />
+</svg>

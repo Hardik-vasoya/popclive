@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>POPC Live</title>
+    <!-- <link rel="icon" href="images/favicon.ico" type="image/x-icon"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css" type="text/css" />
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.js" type="text/javascript"></script>
+    <script src="js/slick.min.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+
+    <!--  Pegister Internet Popup Start -->
+    <div class="modal fade popup-wrapper" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+            <form class="form-wrapper border-0">
+                <h2 class="text-white text-uppercase text-center pb-2"><span>Register</span> Your<br/> Intrest Today</h2>
+                <p class="dark-color mb-4 text-center">Fill in your details to register your interest in <br/>POCP Live!</p>
+                <div class="form-outline">
+                    <input type="text" id="fname" class="form-control" placeholder="Full Name" required="">
+                </div>
+
+                <div class="form-outline">
+                    <input type="text" id="company" class="form-control" placeholder="Company name" required="">
+                </div>
+
+                <div class="form-outline">
+                    <input type="email" id="email" class="form-control" placeholder="Email" required="">
+                </div>
+
+                <div class="form-outline">
+                    <input type="tel" id="phone" class="form-control" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Mobile" required="">
+                </div>
+
+                <p class="pt-4">I’m interested in:</p>
+                <div class="main-check-wrapper d-flex align-items-center pt-2 pb-3">
+                  <label class="main-check d-flex align-items-center">Sponser
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                  </label>
+
+                  <label class="main-check d-flex align-items-center">Exibitor
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                  </label>
+
+                  <label class="main-check d-flex align-items-center">Event Brochure
+                      <input type="checkbox">
+                      <span class="checkmark"></span>
+                  </label>
+                  
+              </div>
+
+              <div class="main-btn-wrapper">
+                <a class="theme-btn text-uppercase radium me-2">
+                    <button type="submit" class="btn btn-primary border-0 inner-btn w-100">SIGN ME UP!</button>
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+
+ <!--  Pegister Internet Popup End  -->
+
+
+
+
+     <!--  Banner Home Popup Start -->
+
+    <div class="modal fade popup-wrapper" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel1" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header border-0">
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+            <form class="form-wrapper border-0">
+                <h2 class="text-white text-uppercase text-center pb-2">Sign up to access exclusive offers and get the latest news </h2>
+                <p class="dark-color mb-4 text-center">Fill in your details to access early bird tickets, groups & schools discounts, and get all the latest updates on POPC Live</p>
+                <div class="form-outline">
+                    <input type="text" id="fname" class="form-control" placeholder="Full Name" required="">
+                </div>
+
+                <div class="form-outline">
+                    <input type="email" id="email" class="form-control" placeholder="Email" required="">
+                </div>
+
+                <div class="form-outline">
+                    <input type="tel" id="phone" class="form-control" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Mobile" required="">
+                </div>
+
+              <div class="main-btn-wrapper">
+                <a class="theme-btn text-uppercase radium me-2">
+                    <button type="submit" class="btn btn-primary border-0 inner-btn w-100">Submit Registration</button>
+                </a>
+            </div>
+        </form>
+    </div>
+</div>
+</div>
+</div>
+
+ <!--  Banner Home Popup Popup End  -->
+
+
+<!-- Header Start -->
+
+<div class="top-bar-wrapper">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <h6 class="mb-0 text-white text-uppercase">march 2022  <span>Dubai</span></h6>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-12">
+                <ul class="d-flex list-none justify-content-end mb-0 align-items-center">
+                    <li><a href="#" class="text-white"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="pe-0"><a href="#" class="text-white"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+<header class="main-header-wrapper py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 d-flex align-items-center">
+                    <div id="mySidenav" class="sidenav">
+                      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                      <ul class="p-0">
+                          <li><a href="index.html" class="text-uppercase">Home</a></li>
+                          <li><a href="#">About POPC Live! <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                          <li><a href="#">What’s On? <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+                              <li><a href="#">Show Features <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                              <li><a href="#">Get Involved <i class="fa fa-angle-right" aria-hidden="true"></i></a></li>
+                          </ul>
+                      </div>
+
+                      <div class="main-menu d-flex w-100 align-items-center">
+                      <span onclick="openNav()" class="menu"> <img src="images/menu.svg"/></span>
+                      <a href="index.html"><img src="images/logo.svg" class="img-fluid ps-5 logo" alt="logo" /></a>
+                      <div class="signup-wrapper d-none">
+                          <a href="#" class="d-flex justify-content-center text-center flex-wrap"><img src="images/signup.svg" class="img-fluid" />
+                            <h6 class="w-100 pt-2 mb-0">SIGN UP!</h6>
+                          </a>
+                      </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </header>
+
+  <!-- Header End -->
+
+
+  <!-- Banner Section Start -->
+
+  <section class="banner-wrapper for-hide">
+      <div class="container">
+          <div class="row align-items-center full-width">
+              <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 left-col">
+                <h6 class="text-uppercase text-white pb-3">march 2022 - Dubai</h6>
+                <h1 class="text-white text-uppercase pb-4">An UNMISSABLE<br/>MEGA EVENT!</h1>
+                <p class="text-white pb-4">Experience the region’s first ever multi-genre MEGA convention - The biggest celebration of eSports, gaming and all things pop culture! </p>
+                <div class="main-btn-wrapper d-flex align-items-center">
+                    <a class="theme-btn text-uppercase radium me-2">
+                        <div class="inner-btn">See whats on</div>
+                    </a>
+                    <a class="theme-btn text-uppercase radium me-2 d-none mobile-btn">
+                        <div class="inner-btn" data-bs-toggle="modal" data-bs-target="#exampleModal1">See whats on</div>
+                    </a>
+                    <a class="theme-btn text-uppercase white ms-2 mobile-hide">
+                        <div class="inner-btn">About POPC Live!</div>
+                    </a>
+                    <!-- <a class="theme-btn text-uppercase border">See whats on</a> -->
+                </div>
+            </div>
+
+            <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12 right-col">
+                <form class="form-wrapper">
+                    <h2 class="text-white text-uppercase text-center pb-2"><span>Sign up</span> to access<br/> exclusive offers and<br/> get the latest news. </h2>
+                    <p class="dark-color mb-4 text-center">Fill in your details to access early bird offers, group/School discounts and all the latest news from POCP Live!</p>
+                    <div class="form-outline">
+                        <input type="text" id="fname" class="form-control" placeholder="Full Name" required="">
+                    </div>
+
+                    <div class="form-outline">
+                        <input type="email" id="email" class="form-control" placeholder="Email" required="">
+                    </div>
+
+                    <div class="form-outline">
+                        <input type="tel" id="phone" class="form-control" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="Mobile" required="">
+                    </div>
+
+                    <div class="main-btn-wrapper">
+                        <a class="theme-btn text-uppercase radium me-2">
+                            <button type="submit" class="btn btn-primary border-0 inner-btn w-100">SIGN ME UP!</button>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Banner Section End -->
+
+<!--  Wats On At Section Start  -->
+
+<div class="down-arrrow d-flex justify-content-center">
+    <a href="#top-bottom"><img src="images/down-arrow.svg" class="img-fluid" /></a>
+</div>
+
+<!--  Wats On At Section End  -->
+
+
+<!--  What's On It Section Start  -->
+
+<section class="whats-start-wrapper pt-120 pb-60">
+   <div class="row">
+       <div class="col-lg-12 text-center content-section">
+        <h3 class="pb-2 text-uppercase text-white">WHAT’S ON AT</h3>
+        <img src="images/logo.svg" class="img-fluid" />
+        <p class="text-center pb-5 mb-4">POPC Live! is a community experience unlike any other – bringing together the very best of eSports, gaming, music, content creators and comic culture all under one roof!</p>
+    </div>
+
+</div>
+
+<div class="row inner-boxes" id="top-bottom">
+   <div class="inner-box one">
+    <a href="#" class="d-flex flex-wrap justify-content-center align-items-center">
+       <h3 class="w-100 text-center">ESPORTS</h3>
+       <img src="images/live.svg" class="img-fluid" />
+   </a>
+</div>
+
+<div class="inner-box two">
+    <a href="#" class="d-flex flex-wrap justify-content-center align-items-center">
+       <h3 class="w-100 text-center">GAMING</h3>
+       <img src="images/live.svg" class="img-fluid" />
+   </a>
+</div>
+
+<div class="inner-box three">
+    <a href="#" class="d-flex flex-wrap justify-content-center align-items-center">
+       <h3 class="w-100 text-center">MUSIC</h3>
+       <img src="images/live.svg" class="img-fluid" />
+   </a>
+</div>
+
+<div class="inner-box four">
+    <a href="#" class="d-flex flex-wrap justify-content-center align-items-center">
+       <h3 class="w-100 text-center">CREATORS</h3>
+       <img src="images/live.svg" class="img-fluid" />
+   </a>
+</div>
+
+<div class="inner-box five">
+    <a href="#" class="d-flex flex-wrap justify-content-center align-items-center">
+       <h3 class="w-100 text-center">COMIC-CON</h3>
+       <img src="images/live.svg" class="img-fluid" />
+   </a>
+</div>
+
+</div>
+</section> 
+
+<!--  What's On It Section End  -->
+
+<!--  Other Feature Section Start  -->
+
+<section class="other-feature-wrapper pt-60 pb-150">
+    <div class="container">
+        <div class="row">
+           <div class="col-lg-12 text-center">
+            <img src="images/play.svg" class="img-fluid pb-3" />
+            <h3 class="pb-2 text-uppercase text-white">Other show features</h3>
+            <p class="text-center pb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+        </div>
+    </div>
+
+    <div class="row inner-wrapper">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 inner-box one">
+            <img src="images/show-img-1.png" class="img-fluid" />
+            <div class="content-box text-center">
+                <h6 class="text-uppercase pb-3">Exhibition<br/> Show Floor</h6>
+                <p>POPC Live! will feature a massive expo hosting the biggest brands, publishers, studios and amazing artists and creators</p>
+                <p>Check out new game demos, posters, figures or get your hands on the latest merch and goodies!</p>
+                <div class="main-btn-wrapper d-flex align-items-center">
+                    <a class="theme-btn text-uppercase dark me-2" href="#">
+                        <div class="inner-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Register for interest</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 inner-box two">
+            <img src="images/show-img-2.png" class="img-fluid" />
+            <div class="content-box text-center">
+                <h6 class="text-uppercase pb-3">Industry <br/> Conference</h6>
+                <p>Hear from some of the biggest names in the gaming and entertainment industry. Our two-day industry conference will give you a detailed insight into the latest news in game development, the role of cryptocurrency in gaming, how e-sports are evolving and much more</p>
+                <div class="main-btn-wrapper d-flex align-items-center">
+                    <a class="theme-btn text-uppercase dark me-2" href="#">
+                        <div class="inner-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">Register for interest</div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 inner-box three">
+            <img src="images/show-img-3.png" class="img-fluid" />
+            <div class="content-box text-center">
+                <h6 class="text-uppercase pb-3">POPC Virtual<br/> Lounge</h6>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+                <a href="#" class="theme-text">Coming Soon!</a>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bottom-img text-center">
+        <img src="images/feature-bottom-img.png" class="img-fluid" />
+    </div>
+</div>
+</div>
+</section>
+
+<!--  Other Feature Section End  -->
+
+
+<!--  Fan Culture Section Start  -->
+
+<section class="fan-culture-wrapper">
+    <div class="row">
+        <div class="col-lg-7 col-md-7 col-sm-8 col-sm-10 left-col">
+            <h3 class="text-uppercase text-center">A Fan Culture<br/> mega Event created <br/>by geeks, for geeks.</h3>
+        </div>
+    </div>
+</section>
+
+<!--  Fan Culture Section End  -->
+
+
+<!-- Most Amazing Event Section Start  -->
+
+<section class="amazing-event-wrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="images/play.svg" class="img-fluid pb-3" />
+                <h3 class="pb-5">THE FIRST EVER MULTI-GENRE MEGA <br/>CON IN THE MIDDLE EAST! </h3>
+            </div>
+        </div>
+        <div class="row align-items-center full-width">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left-col">
+                <img src="images/most-amazing-img.png" class="img-fluid w-100" />
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-col">
+                <p class="pb-5">Unlike other pop culture conventions in the region, POPC Live! brings you the best of fan culture  creating the biggest multi-verse, all under one roof. Whether you’re into competitive gaming, a casual couch gamer, a movie buff, a music fanatic, an anime hokage, or a comic book collector, POPC Live! has something for everyone!</p>
+
+                <div class="main-btn-wrapper d-flex align-items-center">
+                    <a class="theme-btn text-uppercase radium me-2">
+                        <div class="inner-btn">See whats on</div>
+                    </a>
+                    <a class="theme-btn text-uppercase white ms-2">
+                        <div class="inner-btn">About POPC Live!</div>
+                    </a>
+                    <!-- <a class="theme-btn text-uppercase border">See whats on</a> -->
+                </div>
+
+                <div class="founder-wrapper">
+                    <p>“Quote from Arafaat<br/> lorem ipsum dolor sit amet,<br/> consectetur adipiscing elit”</p>
+                    <h6 class="text-white">Arafaat Ali Khan <span>Founder of Waverider Entertainment</span></h6>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Most Amazing Event Section End  -->
+
+
+
+<!--  Premiere Event Section Start  -->
+
+<section class="event-wrapper">
+  <div class="row">
+      <div class="col-lg-7 col-md-7 col-sm-12 inner-content text-center ms-auto">
+          <h3>A WHOLE NEW EXPERIENCE -<br/> THE BIGGEST CELEBRATION OF<br/> FAN CULTURE IN THE REGION! </h3>
+      </div>
+  </div>
+</section>
+
+<!--  Premiere Event Section End  -->
+
+<!--  Get Involved Section Start  -->
+
+<section class="get-involved-wrapper pt-100 pb-100">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <img src="images/play.svg" class="img-fluid pb-3" />
+                <h3 class="pb-2">Get Involved</h3>
+                <p>Be part of the mega con</p>
+            </div>
+        </div>
+
+        <div class="row inner-box">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 box left-col">
+                <img src="images/box-img-1.png" class="img-fluid w-100" alt="box img 1" />
+                <div class="content-box text-center">
+                    <h6 class="pb-2 text-uppercase">Become a Sponser</h6>
+                    <p class="pb-3">Sponsor one or many of the amazing<br/> areas and activations at POPC Live! </p>
+                    <div class="main-btn-wrapper d-flex align-items-center">
+                        <a class="theme-btn text-uppercase dark me-2" href="#">
+                            <div class="inner-btn">Register for interest</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 box right-col">
+                <img src="images/box-img-2.png" class="img-fluid w-100" alt="box img 2" />
+                <div class="content-box text-center">
+                    <h6 class="pb-2 text-uppercase">EXHIBIT AT POPC LIVE</h6>
+                    <p class="pb-3">Get your own space at the mega con and<br/> exhibit your products, merch, or skill. </p>
+                    <div class="main-btn-wrapper d-flex align-items-center">
+                        <a class="theme-btn text-uppercase dark me-2" href="#">
+                            <div class="inner-btn">Apply now</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>   
+
+        <div class="row section-btn pt-100">
+            <div class="col-lg-3 m-auto text-center full-width">
+             <div class="main-btn-wrapper d-flex align-items-center">
+                <a class="theme-btn text-uppercase me-2" href="#">
+                    <div class="inner-btn">Download for more info</div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</section>
+
+<!--  Get Involved Section End  -->
+
+
+<!-- Footer Start -->
+
+<footer class="footer-wrapper pt-100 pb-60 text-center">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>STay connected</h3>
+                <ul class="d-flex list-none justify-content-center mb-0 align-items-center social-link">
+                    <li><a href="#" class="text-white"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                    <li><a href="#" class="text-white"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                    <li class="pe-0"><a href="#" class="text-white"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                    <li class="pe-0"><a href="#" class="text-white"><img src="images/tiktok.svg" class="img-fluid"/></a></li>
+                </ul>
+
+
+                <ul class="d-flex list-none justify-content-center mb-0 align-items-center custom-link">
+                    <li><a href="#">Privacy Policy </a></li>               
+                    <li><a href="#">Cookie Policy</a></li>
+                    <li><a href="#">Terms and Conditions</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<section class="copyright-bar">
+    <div class="container"> 
+       <div class="row align-items-center">
+           <div class="col-lg-5 col-md-6 col-sm-12 mb-0 col-left">
+               <p class="mb-0">© 2021 POPC Live. All Rights Reserved</p>
+           </div>
+
+           <div class="col-lg-7 col-md-6 col-sm-12 mb-0 d-flex align-items-end justify-content-end col-right">
+               <p class="mb-0">Organized by</p>
+               <a href="#"><img src="images/waverider-logo.svg" class="img-fluid" alt="Waverider" /></a>
+               <a href="#"><img src="images/gallexy-logo.svg" class="img-fluid" alt="Galexy rider" /></a>
+           </div>
+       </div>
+   </div>
+</section>
+
+<section class="footer-bottom">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 d-flex justify-content-center align-items-center full-content">
+                <p class="mb-0">Website strategy, creativity & development by <a href="#"><img src="images/footer-logo.svg" class="img-fluid ps-3" /></a></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer End -->
+
+<script type="text/javascript">
+
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "660px";
+    }
+
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+  }
+
+/*  ('.inner-boxes').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    autoplay: false,
+    autoplaySpeed: 2000,
+    arrows: true,
+    dots: false
+    responsive: [
+        {
+            breakpoint: 9999,
+            settings: "unslick"
+        },
+        {
+            breakpoint: 552,
+             settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false
+                }
+        }
+    ]
+});*/
+
+  $('.inner-boxes').slick({
+     slidesToShow: 1.10,
+     slidesToScroll: 1,
+     autoplay: false,
+     autoplaySpeed: 2000,
+     mobileFirst: true,
+     nextArrow: '<i class="fa fa-angle-right" aria-hidden="true"></i>',
+    prevArrow: '<i class="fa fa-angle-left" aria-hidden="true"></i>',
+     responsive: [
+        {
+           breakpoint: 552,
+           settings: "unslick"
+        }
+     ]
+  });
+
+</script>
+
+</body>
+
+</html>

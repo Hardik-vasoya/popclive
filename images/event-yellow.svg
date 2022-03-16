@@ -1,0 +1,18 @@
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 17" width="1920" height="17">
+	<title>event-white-svg</title>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #dbfe00 } 
+	</style>
+	<path id="Layer" class="shp0" d="M1269.8 4.54L-66 4.54L-66 0.54L1269.8 0.54L1269.8 4.54Z" />
+	<path id="Layer" class="shp0" d="M389.71 16.19L61.38 16.19L61.38 2.54L389.71 2.54L389.71 16.19Z" />
+	<path id="Layer" class="shp0" d="M908.59 16.19L786.31 16.19L786.31 2.54L908.59 2.54L908.59 16.19Z" />
+	<path id="Layer" class="shp0" d="M933.73 16.19L927.77 16.19L927.77 2.54L933.73 2.54L933.73 16.19Z" />
+	<path id="Layer" class="shp0" d="M945.64 16.19L939.68 16.19L939.68 2.54L945.64 2.54L945.64 16.19Z" />
+	<path id="Layer" class="shp0" d="M1236.98 16.19L1231.03 16.19L1231.03 2.54L1236.98 2.54L1236.98 16.19Z" />
+	<path id="Layer" class="shp0" d="M411.36 16.19L405.4 16.19L405.4 2.54L411.36 2.54L411.36 16.19Z" />
+	<path id="Layer" class="shp0" d="M423.27 16.19L417.31 16.19L417.31 2.54L423.27 2.54L423.27 16.19Z" />
+	<path id="Layer" class="shp0" d="M1956.34 4L1269.8 4L1269.8 0L1956.34 0L1956.34 4Z" />
+	<path id="Layer" class="shp0" d="M1747.15 16.19L1741.2 16.19L1741.2 2.54L1747.15 2.54L1747.15 16.19Z" />
+	<path id="Layer" class="shp0" d="M1759.07 16.19L1753.11 16.19L1753.11 2.54L1759.07 2.54L1759.07 16.19Z" />
+</svg>
